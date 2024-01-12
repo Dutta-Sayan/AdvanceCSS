@@ -430,3 +430,9 @@ a:hover{
     background-color: rgba(30, 30, 63, 0.475);
     
 }
+.new_project button{
+    background-color: rgb(216, 216, 80);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
