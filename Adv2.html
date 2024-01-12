@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Adv2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="headlogo">
+                <img src= "images/head_logo.jpg" display="block">
+            </div>
+            <div class="nav">
+                <ul class="menu_items">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Price</a></li>
+                    <li><a href="">
+                        Blog
+                        <img src="./images/icons/darrow.svg" class="dropdown"alt="">
+                    </a>
+                    </li>
+                    <div class="mail_icon">
+                        <a href="#"><img src="./images/mail.jpg" alt="" width="20px" height="20px"></a>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="email_entry">
+            <!-- <input type="email" placeholder="email" id="email"> -->
+            <form id="message_form">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </header>
+    <section class="first_section">
+        <div class="content">
+            <div class="heading">
+                <h1>We Will <strong>Make</strong> Your <strong>Business</strong> Great Again</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ullam. Lorem ipsum dolor sit amet.</p>
+                <div class="explore_links">
+                    <a class="link" href="" id="contact_btn">Contact Us</a>
+                    <a class="link" href="" id="discover_btn">Discover now</a>
+                </div>
+            </div>
+            <a href="#intro"><img src="./images/icons/darrow.png" id="slidedown"alt=""></a>
+        </div>
+    </section>
+
+    <section class="outer intro" id="intro">
+        <div class="content">
+            <div class="intro_content">
+                <div class="intro_info">
+                    <h2>Hello <strong>World</strong></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi ipsam aperiam maiores reiciendis, quam sunt minima ut delectus ullam? Aut dignissimos hic dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officia, iste ea obcaecati ab dolores delectus ad consectetur, unde at velit dicta soluta incidunt. Sit tempora provident enim odit sequi.</p>
+                        <div class="icon">
+                            <img src="/images/icons/i-diamond_b.svg" alt="">
+                            <p>Exploring your area of activity</p>
+                        </div>
+                        <div class="icon">
+                            <img src="/images/icons/i-wallet_b.svg" alt="">
+                            <p>Competitive analysis</p>
+                        </div>
+                        <div class="icon">
+                            <img src="/images/icons/i-trophy_b.svg" alt="">
+                            <p>Do the work in time</p>
+                        </div>
+                </div>
+                <div class="intro_img">
+                    <img src="./images/img-3.jpg"  width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="outer service">
+        <div class="content">
+            <div class="service_heading">
+                <p>Some of our <strong>best services</strong> to solve your problems</p>
+            </div>
+            <div class="service_types">
+                <div class="item">
+                    <div class="img_cover">
+                        <img src="./images/icons/i-message_w.svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Digital marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum consectetur fuga corrupti? Adipisci, tempore?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_cover">
+                        <img src="./images/icons/i-feature_w.svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Web Developement</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum consectetur fuga corrupti? Adipisci, tempore?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img_cover">
+                        <img src="./images/icons/i-sketch_w.svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>UI/UX Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum consectetur fuga corrupti? Adipisci, tempore?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service_link">
+                <a class="link" href="">Order a service</a>
+            </div> 
+        </div>
+    </section>
+    <section class="outer design_images">
+        <div class="content">
+            <div class="design_images_heading">
+                <h2>Good design is obvious<br>Great design is transparent</h2>
+                <p>About Joe <span>&#169;</span>graphic designer, digital literacy teacher</p>
+            </div>
+            <div class="navigate">
+                <ul class="nav">
+                    <li id="click1"><a >SHOW ALL</a></li>
+                    <li><a id="click2">DESIGN</a></li>
+                    <li><a id="click3">CODE</a></li>
+                    <li><a id="click4">ART</a></li>
+                </ul>
+            </div>
+            <div class="img_container">
+                <div class="item img1">
+                    <img src="./images/12-min.jpg" class="image" id="img_change1" alt="">
+                </div>
+                <div class="item img2">
+                    <img src="./images/2-min.jpg" class="image"  id="img_change2" alt="">
+                </div>
+                <div class="item img3">
+                    <img src="./images/2-min.jpg" class="image" id="img_change1" alt="">
+                </div>
+                <div class="item img4">
+                    <img src="./images/2-min.jpg" class="image" id="img_change2" alt="">
+                </div>
+                <div class="item img5">
+                    <img src="./images/12-min.jpg" class="image"  id="img_change2" alt="">
+                </div>
+                <div class="item img6">
+                    <img src="./images/2-min.jpg" class="image" id="img_change1" alt="">
+                </div>
+                <div class="item img7">
+                    <img src="./images/2-min.jpg" class="image"  id="img_change2" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="outer stats">
+        <div class="content">
+            <div class="item">
+                <div class="img_cover">
+                    <img src="./images/icons/i-team.svg" alt="">
+                </div>
+                <p>Unique customers:</p>
+                <h3><srong>3519+</srong></h3>
+            </div>
+            <div class="item">
+                <div class="img_cover">
+                    <img src="./images/icons/i-shield.svg" alt="">
+                </div>
+                <p>Completed projects:</p>
+                <h3><srong>3519+</srong></h3>
+            </div>
+            <div class="item">
+                <div class="img_cover">
+                    <img src="./images/icons/i-diamond.svg" alt="">
+                </div>
+                <p>Happy Users:</p>
+                <h3><srong>3519+</srong></h3>
+            </div>
+            <div class="item">
+                <div class="img_cover">
+                    <img src="./images/icons/i-trophy.svg" alt="">
+                </div>
+                <p>Honors and awards</p>
+                <h3><srong>3519+</srong></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="outer pricing_plans">
+        <div class="content">
+            <div class="price_header">
+                <h2>Flexible <span >Pricing</span> Plans</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsam!
+                </p>
+            </div>
+            <div class="price_cards">
+                <div class="card">
+                    <h2>Trial Version</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias inventore recusandae doloremque at deleniti.</p>
+                    <p class="price">free</p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free Email address</li>
+                        <li>Friendly support</li>
+                    </ul>
+                    <div class="purchase_click">
+                        <a class="link" href="">Download</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Regular</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias inventore recusandae doloremque at deleniti.</p>
+                    <p class="price">19/month</p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free Email address</li>
+                        <li>Friendly support</li>
+                    </ul>
+                    <div class="purchase_click">
+                        <a class="link" href="">Purchase</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Extended</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias inventore recusandae doloremque at deleniti.</p>
+                    <p class="price">29/month</p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free Email address</li>
+                        <li>Friendly support</li>
+                    </ul>
+                    <div class="purchase_click">
+                        <a class="link" href="">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="outer testimonial">
+        <div class="content">
+            <div class="header">
+                <div class="testimonial_heading">
+                    <h2>Testimonials About Us</h2>
+                    <div class="arrow">
+                        <span>
+                            <
+                        </span>
+                        <span>
+                            >
+                        </span>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, suscipit!</p>
+            </div>
+            <div class="about">
+                <div class="item">
+                    <div class="img">
+                        <img src="./images/t-1.jpeg" alt="">
+                    </div>
+                    <p>Robert Newmen</p>
+                    <p>Microsoft Cooperation</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem natus unde aspernatur explicabo asperiores ullam sapiente obcaecati alias, quis repellat maiores sequi non esse fugiat earum et soluta dolor.</p>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="./images/t-2.jpeg" alt="">
+                    </div>
+                    <p>Robert Newmen</p>
+                    <p>Space X</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quidem natus unde aspernatur explicabo asperiores ullam sapiente obcaecati alias, quis repellat maiores sequi non esse fugiat earum et soluta dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="outer blog">
+        <div class="content">
+            <div class="blog_header">
+                <h2>
+                    Latest Blog Posts
+                </h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, molestias?
+                </p>
+            </div>
+            <div class="blog_cards">
+                <div class="card">
+                    <img src="./images/img-2.jpg" alt="" width="100%">
+                    <div class="blog_info">
+                        <h2>
+                            Lorem ipsum dolor sit amet.
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, accusamus!
+                        </p>
+                        <div class="blog_click">
+                            <a class="link" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/img-2.jpg" alt="" width="100%">
+                    <div class="blog_info">
+                        <h2>
+                            Lorem ipsum dolor sit amet.
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, accusamus!
+                        </p>
+                        <div class="blog_click">
+                            <a class="link" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/img-2.jpg" alt="" width="100%">
+                    <div class="blog_info">
+                        <h2>
+                            Lorem ipsum dolor sit amet.
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, accusamus!
+                        </p>
+                        <div class="blog_click">
+                            <a class="link" href="">Read More</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="content">
+            <div class="header">
+                <img src="./images/logo-footer.jpg" alt="">
+            </div>
+            <div class="footer_wrap">
+                <div class="item">
+                    <h2>
+                        Company
+                    </h2>
+                    <ul>
+                        <li><a>ABOUT</a></li>
+                        <li><a>SUPPORT</a></li>
+                        <li><a>PRESS</a></li>
+                        <li><a>LEGAL AND PRIVACY</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h2>
+                        Quick Links
+                    </h2>
+                    <ul>
+                        <li><a>NEWS</a></li>
+                        <li><a>CONTACT US</a></li>
+                        <li><a>FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h2>
+                        Social
+                    </h2>
+                    <ul>
+                        <li><a>FACEBOOK</a></li>
+                        <li><a>GOOGLE+</a></li>
+                        <li><a>TWITTER</a></li>
+                        <li><a>INSTAGRAM</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h2>
+                        Subscribe newsletter
+                    </h2>
+                    <form action="">
+                        <input type="text" placeholder="email">
+                        <!--  -->
+                    </form>
+                    
+                </div>
+            </div>
+            <p>Copyright <span>&#169;</span>all rights reserved late 2018 | Design and developement by miller digital design</p>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $(".mail_icon").click(function(){
+                $(".email_entry").fadeToggle(100,function(){
+                    $("#submit").click(function(){
+                        let fname=$("#fname").val();
+                        let lname=$("#lname").val();
+                        let email=$("#email").val();
+                        $(".email_entry").hide();
+                        alert("Name:"+fname+" "+lname+"\nEmail:"+email);
+                        $("#message_form").trigger("reset");
+                    });
+                });
+            });
+            $("#click1").click(function(){
+                $("#img_change1").attr("src","./images/2-min.jpg");
+                $("#img_change2").attr("src","./images/12-min.jpg");
+            });
+            $("#click2").click(function(){
+                $("#img_change1").attr("src","./images/12-min.jpg");
+                $("#img_change2").attr("src","./images/2-min.jpg");
+            });
+            $("#click3").click(function(){
+                $("#img_change1").attr("src","./images/2-min.jpg");
+                $("#img_change2").attr("src","./images/12-min.jpg");
+            });
+            $("#click4").click(function(){
+                $("#img_change1").attr("src","./images/12-min.jpg");
+                $("#img_change2").attr("src","./images/2-min.jpg");
+            });
+        });
+
+        // $("#click1").click(function(){
+        //     $(".img1").css({"gridRow":"2/4", "gridColumn":"2/3"});
+        //     $(".img2").css({"gridRow":"1/3", "gridColumn":"1/2"});
+        // });
+    </script>
+</body>
+</html>
