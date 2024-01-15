@@ -489,28 +489,44 @@
                     });
                 });
             });
-            $("#click1").click(function(){
-                $("#img_change1").attr("src","./images/2-min.jpg");
-                $("#img_change2").attr("src","./images/12-min.jpg");
-            });
-            $("#click2").click(function(){
-                $("#img_change1").attr("src","./images/12-min.jpg");
-                $("#img_change2").attr("src","./images/2-min.jpg");
-            });
-            $("#click3").click(function(){
-                $("#img_change1").attr("src","./images/2-min.jpg");
-                $("#img_change2").attr("src","./images/12-min.jpg");
-            });
-            $("#click4").click(function(){
-                $("#img_change1").attr("src","./images/12-min.jpg");
-                $("#img_change2").attr("src","./images/2-min.jpg");
-            });
-        });
-
-        // $("#click1").click(function(){
-        //     $(".img1").css({"gridRow":"2/4", "gridColumn":"2/3"});
-        //     $(".img2").css({"gridRow":"1/3", "gridColumn":"1/2"});
+        //     $("#click1").click(function(){
+        //         $("#img_change1").attr("src","./images/2-min.jpg");
+        //         $("#img_change2").attr("src","./images/12-min.jpg");
+        //     });
+        //     $("#click2").click(function(){
+        //         $("#img_change1").attr("src","./images/12-min.jpg");
+        //         $("#img_change2").attr("src","./images/2-min.jpg");
+        //     });
+        //     $("#click3").click(function(){
+        //         $("#img_change1").attr("src","./images/2-min.jpg");
+        //         $("#img_change2").attr("src","./images/12-min.jpg");
+        //     });
+        //     $("#click4").click(function(){
+        //         $("#img_change1").attr("src","./images/12-min.jpg");
+        //         $("#img_change2").attr("src","./images/2-min.jpg");
+        //     });
         // });
+
+        $("#click1").click(function(){
+            $(".img1").css({"gridRow":"2/4", "gridColumn":"3/4"});
+            $(".img5").css({"gridRow":"2/4", "gridColumn":"2/3"});
+            $(".img2").css({"gridRow":"1/2", "gridColumn":"1/2"});
+        });
+        $("#click2").click(function(){
+            $(".img1").css({"gridRow":"2/4", "gridColumn":"1/2"});
+            $(".img2").css({"gridRow":"1/2", "gridColumn":"1/2"});
+            $(".img5").css({"gridRow":"1/3", "gridColumn":"2/3"});
+        });
+        $("#click3").click(function(){
+            $(".img1").css({"gridRow":"2/4", "gridColumn":"2/3"});
+            $(".img2").css({"gridRow":"1/2", "gridColumn":"1/2"});
+            $(".img5").css({"gridRow":"1/3", "gridColumn":"3/4"});
+        });
+        $("#click4").click(function(){
+            $(".img1").css({"gridRow":"1/3", "gridColumn":"3/4"});
+            $(".img5").css({"gridRow":"2/4", "gridColumn":"1/2"});
+        });
+    });
     </script>
 </body>
 </html>
